@@ -1,0 +1,6 @@
+   TD_Checker
+Object ▸ Clean Up ▸ Remove Unused Material Slots
+Input ▸ Bevel
+Input ▸ Layer Weight
+Texture ▸ Image Texture
+   BAKE 

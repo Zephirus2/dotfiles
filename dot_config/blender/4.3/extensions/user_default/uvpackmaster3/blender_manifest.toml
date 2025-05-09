@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "uvpackmaster3"
+version = "3.3.3"
+name = "UVPackmaster 3"
+tagline = "UVPackmaster 3 is an efficient and fully-featured UV packing engine available for Blender. It is probably the most efficient UV packer out there in terms of packing on CPU but it also provides a GPU accelerated variant of the algorithm (using Cuda and Vulkan)."
+maintainer = "Lukasz Czyz <glukoz@uvpackmaster.com>"
+
+type = "add-on"
+website = "https://uvpackmaster.com/"
+
+tags = ["UV"]
+
+blender_version_min = "2.8.0"
+
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
