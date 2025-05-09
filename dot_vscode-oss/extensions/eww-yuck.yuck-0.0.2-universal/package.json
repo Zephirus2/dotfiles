@@ -1,0 +1,56 @@
+{
+	"name": "yuck",
+	"displayName": "Yuck",
+	"repository": {
+		"url": "https://github.com/owenrumney/yuck-vscode"
+	},
+	"description": "Yuck language support for Eww Widgets",
+	"publisher": "eww-yuck",
+	"version": "0.0.2",
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"main": "./out/src/extension",
+	"activationEvents": [
+		"onLanguage:yuck"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "yuck",
+				"aliases": [
+					"Yuck"
+				],
+				"extensions": [
+					".yuck"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "yuck",
+				"scopeName": "source.yuck",
+				"path": "./syntaxes/yuck.tmLanguage.json"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install && tsc"
+	},
+	"dependencies": {
+		"typescript": "^4.4.4"
+	},
+	"devDependencies": {
+		"typescript": "^4.4.4",
+		"vscode": "^1.1.34"
+	},
+	"__metadata": {
+		"installedTimestamp": 1746794649941,
+		"targetPlatform": "universal",
+		"size": 4113998
+	}
+}
